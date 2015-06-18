@@ -1,8 +1,8 @@
 .nav a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding: 14px 14px;
   text-transform: uppercase;
 }
 
@@ -37,6 +37,34 @@
 
 }
 
+.jumbotron2 {
+  background-image:url('images/frog2.JPG');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron2 .container2 {
+  position: relative;
+  top:20px;
+}
+
+.jumbotron2 h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+
+}
+
+.jumbotron2 p {
+  font-size: 20px;
+  color: #fff;
+
+}
+
+
+
 .neighborhood-guides {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
@@ -50,6 +78,11 @@
 .neighborhood-guides p {
     margin-bottom: 13px;
     font-size: 15px;
+}
+
+.second-column{
+  position: relative;
+  top:36px;
 }
 
 .learn-more {
